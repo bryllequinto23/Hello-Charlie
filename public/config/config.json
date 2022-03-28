@@ -7,9 +7,10 @@
     "ID": 80001
   },
   "NFT_NAME": "Hello, Charlie!",
-  "SYMBOL": "HCHR",
+  "SYMBOL": "CHARLIE",
   "MAX_SUPPLY": 500,
   "WEI_COST": 4000000000000000000,
+  "WEI_COST2": 0.069,
   "DISPLAY_COST": 0.069,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
