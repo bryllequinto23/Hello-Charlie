@@ -101,20 +101,20 @@ export const Container3 = styled.div
   `
 
 export const TextTitle = styled.p`
-  color: var(--primary-text);
+  color: var(--secondary);
   font-size: 33px;
   font-weight: bold;
   line-height: 1.6;
 `;
 
 export const TextSubTitle = styled.p`
-  color: var(--primary-text);
+  color: var(--secondary);
   font-size: 18px;
   line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
-  color: var(--primary-text);
+  color: var(--secondary);
   font-size: 16px;
   line-height: 1.6;
 `;

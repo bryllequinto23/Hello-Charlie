@@ -247,7 +247,7 @@ function App() {
               textAlign: "center",
               fontSize: 50,
               fontWeight: "bold",
-              color: "var(--primary-text)",}}>
+              color: "var(--secondary)",}}>
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription style={{
@@ -277,7 +277,7 @@ function App() {
               </>
             ) : (
               <>
-                <s.TextTitle style={{ textAlign: "center", color: "var(--primary-text)" }}>
+                <s.TextTitle style={{ textAlign: "center", color: "var(--secondary)" }}>
                   1 Charlie = {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
@@ -331,7 +331,7 @@ function App() {
                       <s.SpacerMedium />
                       <s.TextDescription style={{
                         textAlign: "center",
-                        color: "var(--primary-text)",
+                        color: "var(--secondary)",
                         fontWeight: "bold",
                         fontSize: "35px"}}>
                         {mintAmount}
