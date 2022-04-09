@@ -305,7 +305,8 @@ function App() {
                         <s.SpacerSmall />
                         <s.TextDescription style={{
                           textAlign: "center",
-                          color: "var(--err-text)"}}>
+                          color: "var(--err-text)",
+                          fontWeight: "bold"}}>
                           {blockchain.errorMsg}
                         </s.TextDescription>
                       </>
